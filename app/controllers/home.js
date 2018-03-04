@@ -54,3 +54,12 @@ router.get('/upperclass', (req, res, next) => {
 	// 	console.log('next is clicked');
 	// }));
 });
+
+router.get('/employment', (req, res, next) => {
+	Page.find((err) => {
+		if (err) return next(err);
+		res.render('employment', {
+			title: 'Employment'
+		});
+	});
+});

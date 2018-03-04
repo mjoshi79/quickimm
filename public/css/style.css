@@ -30,3 +30,15 @@ section {
 #welcome-btn{
 	margin:1.5em;
 }
+
+#employment-header{
+	background-color: #ffffff;
+}
+
+header {
+	padding: 50px;
+}
+
+.highlight-text{
+	font-weight: bold;
+}
